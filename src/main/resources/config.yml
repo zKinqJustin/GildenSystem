@@ -1,0 +1,26 @@
+# GildenSystem Konfiguration
+
+# Datenbank-Einstellungen
+database:
+  host: localhost
+  port: 3306
+  database: minecraft
+  username: root
+  password: ""
+
+# Allgemeine Einstellungen
+settings:
+  # Maximale Anzahl an Mitgliedern pro Gilde
+  max-members: 50
+  
+  # Minimale Länge des Gildennamens
+  min-name-length: 3
+  
+  # Maximale Länge des Gildennamens
+  max-name-length: 20
+  
+  # Minimale Länge des Gildenkürzel
+  min-kuerzel-length: 1
+  
+  # Maximale Länge des Gildenkürzel
+  max-kuerzel-length: 5

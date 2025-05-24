@@ -1,0 +1,11 @@
+name: GildenSystem
+version: '1.0'
+main: de.justindev.gildensystem.GildenSystem
+api-version: '1.21'
+description: Ein Gildensystem mit GUI für Minecraft Server
+author: JustinDev
+commands:
+  gilde:
+    description: Öffnet das Gilden-GUI
+    usage: /gilde
+    aliases: [g, guild]
